@@ -1,0 +1,104 @@
+concept extension : dictionary wala
+Document Conversion : convert to any format
+
+
+Class names start with an uppercase letter. All other identifiers start with a lowercase letter.
+
+Starting an identifier with a single leading underscore indicates that the identifier is private.
+
+Starting an identifier with two leading underscores indicates a strongly private identifier.
+
+If the identifier also ends with two trailing underscores, the identifier is a language-defined special name.
+
+list.extend(seq)
+Appends the contents of seq to list
+To write a tuple containing a single value you have to include a comma, even though there is only one value
+
+Any set of multiple objects, comma-separated, written without identifying symbols, i.e.,brackets for lists,
+ parentheses for tuples, etc., default to tuples, as indicated in these short examples −
+print 'abc', -4.24e93, 18+6.6j, 'xyz'
+x, y = 1, 2;
+print "Value of x , y : ", x,y
+
+Every Python class keeps following built-in attributes and they can be accessed using dot operator like any other attribute −
+
+__dict__: Dictionary containing the class's namespace.
+
+__doc__: Class documentation string or none, if undefined.
+
+__name__: Class name.
+
+__module__: Module name in which the class is defined. This attribute is "__main__" in interactive mode.
+
+__bases__: A possibly empty tuple containing the base classes, in the order of their occurrence in the base class list.
+
+Python protects those members by internally changing the name to include the class name. 
+You can access such attributes as object._className__attrName
+Function	Description
+int(x [,base])
+
+Converts x to an integer. base specifies the base if x is a string.
+
+long(x [,base] )
+
+Converts x to a long integer. base specifies the base if x is a string.
+
+float(x)
+
+Converts x to a floating-point number.
+
+complex(real [,imag])
+
+Creates a complex number.
+
+str(x)
+
+Converts object x to a string representation.
+
+repr(x)
+
+Converts object x to an expression string.
+
+eval(str)
+
+Evaluates a string and returns an object.
+
+tuple(s)
+
+Converts s to a tuple.
+
+list(s)
+
+Converts s to a list.
+
+set(s)
+
+Converts s to a set.
+
+dict(d)
+
+Creates a dictionary. d must be a sequence of (key,value) tuples.
+
+frozenset(s)
+
+Converts s to a frozen set.
+
+chr(x)
+
+Converts an integer to a character.
+
+unichr(x)
+
+Converts an integer to a Unicode character.
+
+ord(x)
+
+Converts a single character to its integer value.
+
+hex(x)
+
+Converts an integer to a hexadecimal string.
+
+oct(x)
+
+Converts an integer to an octal string.
